@@ -3,7 +3,7 @@
 // Imports
 
 import "./styles/index.scss";
-import { menu } from  "./data-menu.js";
+import { menu } from  "./data/data-menu.js";
 import { contactsData } from "./data/data-contacts.js";
 
 import pasta from './assets/pasta.jpg';
