@@ -1,0 +1,71 @@
+@forward 'fonts';
+
+.menu {
+  padding: 2rem 0;
+  animation: 0.25s ease-out 0s 1 slideInFromLeft;
+}
+
+.menu__content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min(200px,100%), 1fr));
+  grid-template-rows: 1fr 1fr;
+  gap: 3rem;
+}
+
+.course-name {
+  color: rgba(255, 115, 0, 0.9);
+  letter-spacing: .1rem;
+  font-size: 2.2rem;
+  padding-bottom: .57rem;
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.menu__hs {
+  color: rgba(255, 115, 0, 0.9);
+  font-size: 1.5rem;
+  padding-bottom: .6rem;
+  font-weight: 400;
+}
+
+.menu__hb {
+  letter-spacing: .2rem;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  gap: .4rem;
+  margin-bottom: 0.3rem;
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+
+.underline {
+  width: 100%;
+  height: 1px;
+  margin-top: 1rem;
+  background-color: rgba(61,61,60,0.2);
+}
+
+.details {
+  font-size: .9rem;
+  font-weight: 300;
+  margin-bottom: 1.1rem;
+}
+
+@media (max-width: 650px) {
+  .menu__content {
+    display: block;
+  }
+
+  .course + .course{
+    margin-top: 2rem;
+  }
+}

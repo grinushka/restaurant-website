@@ -1,0 +1,78 @@
+@forward 'fonts';
+
+.home {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  animation: 0.3s ease-out 0s 1 slideInFromLeft;
+}
+
+.home-left {
+  max-width: 55%;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.home-right {
+  max-width: 45%;
+}
+
+.heading-s {
+  font-size: 1.4rem;
+  color: grey;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+}
+
+.heading-b {
+  font-family: 'Libre Baskerville', serif;
+  padding: 1.8rem 0 3rem 0;
+  font-size: 2.6rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.btn {
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 3px;
+  box-shadow: 0 0.2rem 0.6rem rgb(0 0 0 / 50%);
+}
+
+.btn-orange {
+  background: linear-gradient(to top right, rgba(253, 151, 56, 0.9), rgba(255, 115, 0, 0.9));
+  letter-spacing: 0.1rem;
+}
+
+.btn-orange:hover {
+  background: rgb(255, 166, 0);
+}
+
+// Contact
+
+.home__socials {
+  padding-top: 6rem;
+}
+
+.socials__heading {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem
+}
+
+.socials {
+  font-size: 1rem;
+}
+
+.social + .social {
+  padding-top: 0.5rem;
+}
+
+.line {
+  height: 1.5px;
+  width: 3.5rem;
+  background-color: rgb(48, 48, 48);
+}

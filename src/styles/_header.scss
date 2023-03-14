@@ -1,0 +1,41 @@
+@forward '/src/styles/fonts';
+
+.header {
+  background-color: rgb(54, 54, 54);
+  position: relative;
+  z-index: 999;
+  box-shadow: 0 4px 2px -2px rgb(151, 151, 151);
+  color: white;
+}
+
+.nav__ul {
+  font-size: 1.4rem;
+  padding: 1rem 1rem 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10%;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: rgb(255, 127, 22);
+}
+
+.nav-item {
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+}
+
+.nav-selected {
+  color: rgb(255, 115, 0);
+  font-weight: 600;
+}
+
+
+@media (max-width: 650px) {
+  .nav__ul {
+    justify-content: center;
+    padding: 1rem 0;
+    gap: 0
+  }
+}
