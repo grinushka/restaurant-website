@@ -5,7 +5,7 @@
 Simple website for the imaginary restaurant. IT was created in order to improve:
 - JS Objects skills
 - DOM manipulation
-- CSS Transitions
+- CSS Animations
 
 <h2> Screenshots </h2>
 
