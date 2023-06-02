@@ -86,11 +86,15 @@ function displayHome() {
 
   const homeRight = document.createElement('div');
   homeRight.classList.add('home-right');
-
-  homeRight.innerHTML = `<div class="home-right_img">
-  <img src="./pasta.jpg" alt="" class="home_img">
-  </div>`;
   home.append(homeRight);
+
+  const homeRightImg = document.createElement('div');
+  homeRightImg.classList.add('home-right-img');
+  homeRight.append(homeRightImg);
+  
+  const homeImg = document.createElement('img');
+  homeImg.src = './pasta.jpg';
+  homeRightImg.append(homeImg);
 }
 
 function displayMenu() {

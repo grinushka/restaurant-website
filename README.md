@@ -1,6 +1,6 @@
 <h1> Restaurant Website</h1>
 
-[Project live preview]()
+[Project live preview 🍋](https://glistening-dodol-fd33db.netlify.app/)
 
 Simple website for the imaginary restaurant. IT was created in order to improve:
 - JS Objects skills
