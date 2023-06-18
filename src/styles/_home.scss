@@ -1,10 +1,10 @@
 @forward 'fonts';
 
-
 .home {
   background-color: white;
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
   animation: 0.3s ease-out 0s 1 slideInFromLeft;
 }
 
@@ -33,7 +33,6 @@
 .heading-b {
   font-family: 'Libre Baskerville', serif;
   padding: 1.8rem 0 3rem 0;
-  font-size: 2.6rem;
   line-height: 3.5rem;
   letter-spacing: 0.1rem;
 }
@@ -81,4 +80,14 @@
   height: 1.5px;
   width: 3.5rem;
   background-color: rgb(48, 48, 48);
+}
+
+@media (max-width: 900px) {
+  .home-left {
+    max-width: 100%;
+  }
+
+  .home-right {
+    display: none;
+  }
 }

@@ -22,6 +22,10 @@ button {
   cursor: pointer;
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+
 .container {
   max-width: 1280px;
   width: 80%;
@@ -33,9 +37,9 @@ button {
     transform: translateX(-100%);
     opacity: 0.5;
   }
+
   100% {
     transform: translateX(0);
     opacity: 1;
   }
 }
-
